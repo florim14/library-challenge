@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/library-challenge/static/css/main.548695c7.css",
-    "main.js": "/library-challenge/static/js/main.892f4f09.js",
+    "main.js": "/library-challenge/static/js/main.e4307e19.js",
     "static/js/453.70cf5ca8.chunk.js": "/library-challenge/static/js/453.70cf5ca8.chunk.js",
     "index.html": "/library-challenge/index.html",
     "main.548695c7.css.map": "/library-challenge/static/css/main.548695c7.css.map",
-    "main.892f4f09.js.map": "/library-challenge/static/js/main.892f4f09.js.map",
+    "main.e4307e19.js.map": "/library-challenge/static/js/main.e4307e19.js.map",
     "453.70cf5ca8.chunk.js.map": "/library-challenge/static/js/453.70cf5ca8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.548695c7.css",
-    "static/js/main.892f4f09.js"
+    "static/js/main.e4307e19.js"
   ]
 }
