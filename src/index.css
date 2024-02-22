@@ -1,13 +1,111 @@
+html,
+body,
+#root,
+.app,
+.content {
+  width: 100%;
+  margin: 0;
+  font-family: "ubuntu", "arial", "sans-serif";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /*overflow: auto;*/
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  background: rgb(49,166,76);
+  background: linear-gradient(0deg, rgba(145, 166, 49, 0.28) 0%, rgba(194,242,205,0.08) 100%);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  monospace;
 }
+
+html{
+  min-height:100%;
+}
+
+body{
+  height: auto;
+}
+
+
+/* styling the scroll bar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ccffd9;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #89cb9b;
+  border-radius: 50px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-track:hover {
+  background: #bceaca;
+}
+
+
+.rotate {
+  -webkit-animation: rotate 1s ease-in-out both infinite;
+  animation: rotate 1s ease-in-out both infinite;
+}
+
+@-webkit-keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.loading[data-text-fill] {
+  display: inline;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(64deg, #e9df00, #75C6CE, #31a64c);
+  text-shadow: 0 0 10px linear-gradient(to right, #e9df00, #75C6CE, #31a64c);
+}
+
+
+/*********************************************************************/
+/* styling the scroll bar */
+/*********************************************************************/
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+/* Handle on hover */
+::-webkit-scrollbar-track:hover {
+  background: #d0d0d0;
+}
+/*********************************************************************/
