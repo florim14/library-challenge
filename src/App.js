@@ -9,7 +9,7 @@ export default function App() {
   return <BrowserRouter>
       <Container maxWidth={"xl"} sx={{ marginTop: 2 }}>
           <Routes>
-              <Route path={"/"} element={<Home />}/>
+              <Route path={"/*"} element={<Home />}/>
           </Routes>
       </Container>
   </BrowserRouter>
