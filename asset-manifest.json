@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/library-challenge/static/css/main.e6c13ad2.css",
-    "main.js": "/library-challenge/static/js/main.e4d29688.js",
+    "main.css": "/library-challenge/static/css/main.548695c7.css",
+    "main.js": "/library-challenge/static/js/main.892f4f09.js",
     "static/js/453.70cf5ca8.chunk.js": "/library-challenge/static/js/453.70cf5ca8.chunk.js",
     "index.html": "/library-challenge/index.html",
-    "main.e6c13ad2.css.map": "/library-challenge/static/css/main.e6c13ad2.css.map",
-    "main.e4d29688.js.map": "/library-challenge/static/js/main.e4d29688.js.map",
+    "main.548695c7.css.map": "/library-challenge/static/css/main.548695c7.css.map",
+    "main.892f4f09.js.map": "/library-challenge/static/js/main.892f4f09.js.map",
     "453.70cf5ca8.chunk.js.map": "/library-challenge/static/js/453.70cf5ca8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.e4d29688.js"
+    "static/css/main.548695c7.css",
+    "static/js/main.892f4f09.js"
   ]
 }
